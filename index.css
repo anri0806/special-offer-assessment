@@ -77,6 +77,10 @@ body {
   cursor: pointer;
 }
 
+#form .input-group1:hover {
+  border: 2px solid white;
+}
+
 #form .input-group1::placeholder {
   color: #ffffff;
   font-size: 1.11vw;
@@ -98,6 +102,10 @@ body {
   cursor: pointer;
 }
 
+#form .input-group2:hover {
+    border: 2px solid white;
+  }
+
 #form .input-group2::placeholder {
   color: #ffffff;
   font-size: 1.11vw;
@@ -110,7 +118,7 @@ body {
   line-height: 1.4vw;
 }
 
-#form button {
+#form #button {
   display: block;
   width: 24.5vw;
   height: 3.7vw;
