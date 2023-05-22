@@ -23,15 +23,4 @@ function handleSubmit() {
   });
 }
 
-function handleHoverEffect() {
 
-  let button = document.getElementById("button");
-
-  button.addEventListener("mouseover", () => { 
-    button.innerHTML = `Submit <span style="color:green">✔<span>`
-  });
-
-  button.addEventListener("mouseout", () => { 
-    button.innerHTML = "Submit"
-  });
-}
