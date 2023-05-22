@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="index.css" />
   </head>
 
-  <div class="wrap">
-    <div class="content">
+  <div id="wrap">
+    <div id="content">
       <body>
         <div class="main-container">
           <p id="title">
@@ -22,11 +22,33 @@
           </p>
           <br />
           <form id="form">
-            <input class="input-group1" type="text" placeholder="Name" />
-            <input class="input-group1" type="email" placeholder="Email" />
-            <input class="input-group2" type="text" placeholder="Handle" />
+            <input
+              class="input-group1"
+              id="name"
+              type="text"
+              placeholder="Name"
+
+              required
+            />
+            <input
+              class="input-group1"
+              id="email"
+              type="email"
+              placeholder="Email"
+
+              required
+            />
+            <input
+              class="input-group2"
+              id="handle"
+              type="text"
+              placeholder="Handle"
+
+              required
+            />
             <p id="policy">
-              By entering the above information you are agreeing to receive <br/>
+              By entering the above information you are agreeing to receive
+              <br />
               emails from or on behalf of SPECIAL OFFER.
             </p>
             <br />
