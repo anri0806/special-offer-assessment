@@ -74,6 +74,7 @@ body {
   color: #ffffff;
   font-size: 1.11vw;
   font-weight: 700;
+  cursor: pointer;
 }
 
 #form .input-group1::placeholder {
@@ -94,6 +95,7 @@ body {
   color: #ffffff;
   font-size: 1.11vw;
   font-weight: 700;
+  cursor: pointer;
 }
 
 #form .input-group2::placeholder {
@@ -119,4 +121,5 @@ body {
   background: #ffffff;
   font-size: 1.11vw;
   font-weight: 700;
+  cursor: pointer;
 }
