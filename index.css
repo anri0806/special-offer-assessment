@@ -75,16 +75,17 @@ body {
   font-size: 1.11vw;
   font-weight: 700;
   cursor: pointer;
-}
-
-#form .input-group1:hover {
-  border: 2px solid white;
+  transition-duration: 0.7s;
 }
 
 #form .input-group1::placeholder {
   color: #ffffff;
   font-size: 1.11vw;
   font-weight: 700;
+}
+
+#form .input-group1:hover {
+  border: 2px solid white;
 }
 
 #form .input-group2 {
@@ -100,17 +101,18 @@ body {
   font-size: 1.11vw;
   font-weight: 700;
   cursor: pointer;
+  transition-duration: 0.7s;
 }
-
-#form .input-group2:hover {
-    border: 2px solid white;
-  }
 
 #form .input-group2::placeholder {
   color: #ffffff;
   font-size: 1.11vw;
   font-weight: 700;
 }
+
+#form .input-group2:hover {
+    border: 2px solid white;
+  }
 
 #form #policy {
   font-size: 1vw;
