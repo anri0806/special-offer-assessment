@@ -1,6 +1,5 @@
 addEventListener("DOMContentLoaded", () => {
   handleSubmit();
-  handleHoverEffect();
 });
 
 function handleSubmit() {
@@ -20,7 +19,18 @@ function handleSubmit() {
     name.value = "";
     email.value = "";
     handle.value = "";
+    
+    handleAlert();
   });
+
+  
 }
 
+function handleAlert() {
+  let div = document.getElementById("invisible-div");
+  div.removeAttribute("id");
+  div.setAttribute("id", "visible-div");
+}
 
+// after submit, add id to make div visible
+// <=remove this div after 10 sec

@@ -8,58 +8,64 @@
 
   <div id="wrap">
     <div id="content">
-      <body>
-        <div class="main-container">
-          <p id="title">
-            What's next <br />
-            for real time conversation?
-          </p>
+    <body>
 
-          <p id="text-1">
-            We are heads down on building this product <br />
-            towards an early alpha launch in Q2 2023.<br /><br />
-            Reserve your handle, share this page and follow us.
+      <div id="invisible-div">
+        <img src="./images/thumbs-up.png" alt="thumbs up" />
+
+        <h1 style="color:#219330">Congrats!</h1>
+        <p>Your information has been submitted.</p>
+
+        <button>OK</button>
+      </div>
+
+      <div class="main-container">
+        <p id="title">
+          What's next <br />
+          for real time conversation?
+        </p>
+
+        <p id="text-1">
+          We are heads down on building this product <br />
+          towards an early alpha launch in Q2 2023.<br /><br />
+          Reserve your handle, share this page and follow us.
+        </p>
+        <br />
+        <form id="form">
+          <input
+            class="input-group1"
+            id="name"
+            type="text"
+            placeholder="Name"
+            required
+          />
+          <input
+            class="input-group1"
+            id="email"
+            type="email"
+            placeholder="Email"
+            required
+          />
+          <input
+            class="input-group2"
+            id="handle"
+            type="text"
+            placeholder="Handle"
+            required
+          />
+          <p id="policy">
+            By entering the above information you are agreeing to receive
+            <br />
+            emails from or on behalf of SPECIAL OFFER.
           </p>
           <br />
-          <form id="form">
-            <input
-              class="input-group1"
-              id="name"
-              type="text"
-              placeholder="Name"
 
-              required
-            />
-            <input
-              class="input-group1"
-              id="email"
-              type="email"
-              placeholder="Email"
+          <button id="button"><span>Submit</span></button>
+        </form>
+      </div>
 
-              required
-            />
-            <input
-              class="input-group2"
-              id="handle"
-              type="text"
-              placeholder="Handle"
-
-              required
-            />
-            <p id="policy">
-              By entering the above information you are agreeing to receive
-              <br />
-              emails from or on behalf of SPECIAL OFFER.
-            </p>
-            <br />
-
-            <button id="button"><span>Submit</span></button>
-          </form>
-
-        </div>
-
-        <script src="index.js"></script>
-      </body>
+      <script src="index.js"></script>
+    </body>
     </div>
   </div>
 </html>
