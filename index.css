@@ -9,11 +9,8 @@ body {
   font-family: "MyWebFont", Fallback, sans-serif;
 }
 
-/* .wrap {
-    position: relative
-} */
 
-/* Background image */
+/** Background image **/
 #wrap {
   content: "";
   position: fixed;
@@ -28,6 +25,8 @@ body {
   background-size: 100% 100%;
 }
 
+
+/** New background image after submit **/
 #invisible {
   position: fixed;
   left: 0;
@@ -43,17 +42,17 @@ body {
   position: relative;
 }
 
+/** Text & Form **/
 .main-container {
   margin: auto;
   margin-top: 8%;
-  /* margin-top: 12vw; */
   width: 50vw;
 }
 
 .main-container #title {
   font-size: 3.33vw;
   font-weight: 700;
-  line-height: 3.33vw;
+  line-height: 48px;
   letter-spacing: -0.02em;
 }
 
@@ -94,7 +93,7 @@ body {
   width: 47vw;
   height: 3.7vw;
   padding: 0 1vw;
-  border: 2px solid #3d3d3d;
+  border: 2px solid #129a14;
   border-radius: 16px;
   background: #000000;
   color: #ffffff;
@@ -161,6 +160,8 @@ body {
   right: 0;
 }
 
+
+/** Popup window **/
 #invisible-div {
   visibility: hidden;
   position: absolute;

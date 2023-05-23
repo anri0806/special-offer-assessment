@@ -2,6 +2,7 @@ addEventListener("DOMContentLoaded", () => {
   handleSubmit();
 });
 
+
 function handleSubmit() {
   document.getElementById("form").addEventListener("submit", (e) => {
     e.preventDefault();
@@ -24,7 +25,11 @@ function handleSubmit() {
   });
 }
 
+
+
 function handleAlert() {
+
+  // Makes popup window visible
   let div = document.getElementById("invisible-div");
   div.removeAttribute("id");
   div.setAttribute("id", "visible-div");
@@ -33,6 +38,8 @@ function handleAlert() {
   bgd.removeAttribute("id");
   bgd.setAttribute("id", "inactive-bgd");
 
+
+  // Hide popup window and change back bcgd image
   document.getElementById("ok-btn").addEventListener("click", () => {
     let visibleDiv = document.getElementById("visible-div");
     visibleDiv.removeAttribute("id");
