@@ -19,18 +19,31 @@ function handleSubmit() {
     name.value = "";
     email.value = "";
     handle.value = "";
-    
+
     handleAlert();
   });
-
-  
 }
 
 function handleAlert() {
   let div = document.getElementById("invisible-div");
   div.removeAttribute("id");
   div.setAttribute("id", "visible-div");
-}
 
-// after submit, add id to make div visible
-// <=remove this div after 10 sec
+  let bgd = document.getElementById("invisible-bgd");
+  bgd.removeAttribute("id");
+  bgd.setAttribute("id", "inactive-bgd");
+
+  document.getElementById("ok-btn").addEventListener("click", () => {
+    let visibleDiv = document.getElementById("visible-div");
+    visibleDiv.removeAttribute("id");
+    visibleDiv.setAttribute("id", "invisible-div");
+
+    let background = document.getElementById("invisible");
+    background.removeAttribute("id");
+    background.setAttribute("id", "wrap");
+
+    let bgd = document.getElementById("inactive-bgd");
+    bgd.removeAttribute("id");
+    bgd.setAttribute("id", "invisible-bgd");
+  });
+}
